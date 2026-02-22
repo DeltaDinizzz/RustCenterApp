@@ -1,5 +1,7 @@
 # 🔧 RustCentral Editor
 
+[![Sponsor](https://img.shields.io/badge/Sponsor-DeltaDinizzz-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/DeltaDinizzz)
+
 ## 📜 License
 
 RustCentral Editor
@@ -76,5 +78,13 @@ Artifacts: `src-tauri/target/release/bundle/` (MSI, NSIS, updater zips).
 - **Frontend:** React 18, TypeScript, Vite, Ant Design, Zustand, XState
 - **Desktop:** Tauri 2 (Rust)
 - **Auth:** OAuth2 PKCE with [rustcenter.org](https://rustcenter.org); JWT + entitlements API
+
+---
+
+## ❤️ Support this project
+
+If RustCentral Editor helps your server workflow, you can support ongoing development:
+
+- GitHub Sponsors: [@DeltaDinizzz](https://github.com/sponsors/DeltaDinizzz)
 
 ---
