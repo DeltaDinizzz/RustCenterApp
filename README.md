@@ -7,7 +7,7 @@
 <p align="center">
   <strong>Desktop control center for Rust plugin configs.</strong>
   <br/>
-  Edit BetterLoot, BetterTC, Kits, HUD and other supported setups visually, stay connected to your RustCenter account, and keep your desktop app aligned with the RustCenter release channel.
+  Edit BetterLoot, BetterTC, Kits, HUD and other supported setups visually, stay connected to your RustCenter account, work across repeat server workflows, and keep your desktop app aligned with the RustCenter release channel.
 </p>
 
 <p align="center">
@@ -34,8 +34,8 @@
 
 <br/>
 
-> **COMING SOON:** RustCenter desktop server telemetry.
-> The RustCenter ecosystem is moving toward surfacing live server visibility in the desktop experience too, including data pipelines built around `ServerMonitor.cs`, so editing configs and checking server state can live in the same workflow.
+> **Server telemetry inside RustCentral Editor (Near Future).**
+> RustCentral Editor brings RustCenter-linked server visibility into the same desktop workflow, including monitoring flows powered by `ServerMonitor.cs`, so plugin configuration and live server awareness sit together in one place.
 
 <br/>
 
@@ -50,6 +50,8 @@
     <td align="center">🔐<br/><sub>RustCenter Auth</sub></td>
     <td align="center">⚡<br/><sub>Auto Update</sub></td>
     <td align="center">🌐<br/><sub>Release Channel</sub></td>
+    <td align="center">🧭<br/><sub>Multi Server<br/>(Near Future)</sub></td>
+    <td align="center">📡<br/><sub>Server Monitor<br/>(Near Future)</sub></td>
   </tr>
 </table>
 </div>
@@ -93,12 +95,12 @@ Open dashboard and subscription pages directly on RustCenter when you need to ma
 Stable desktop downloads are delivered through GitHub Releases instead of ad-hoc file drops.
 </td>
 <td align="center">
-<h3>🧭 Multi-server workflow</h3>
-Built for admins juggling multiple servers, multiple configs, and repeated plugin tuning work.
+<h3>🧭 Multi-server control (Near Future)</h3>
+Manage repeated config work across several Rust servers from one desktop flow instead of treating every server as an isolated manual pass.
 </td>
 <td align="center">
-<h3>📈 Telemetry direction</h3>
-The broader RustCenter direction includes bringing monitoring and config control closer together.
+<h3>📈 Server monitoring panels (Near Future)</h3>
+View RustCenter-linked server status, telemetry, and `ServerMonitor.cs` feeds beside the same config workflows you already use in the editor.
 </td>
 </tr>
 </table>
@@ -123,7 +125,7 @@ The broader RustCenter direction includes bringing monitoring and config control
 - ✅ Visual editing for supported Rust plugin setups
 - ✅ Cleaner desktop workflow for repeated config changes
 - ✅ Centralized account-aware access through RustCenter
-- ✅ Direct path to new releases and future ecosystem integrations
+- ✅ Direct path to new releases, multi-server control, and server-aware desktop workflows (Near Future)
 </td>
 </tr>
 </table>
@@ -140,7 +142,7 @@ RustCentral Editor is not just a standalone installer. It sits inside a larger R
 | **RustCenter Website** | Account, dashboard, subscription, downloads, and broader platform features. |
 | **RustCenter Auth** | Sign-in flow and plan-aware desktop access. |
 | **GitHub Releases** | Hosts signed release assets used for manual download and updater delivery. |
-| **ServerMonitor.cs** | Planned bridge for bringing server telemetry into the same ecosystem and, later, closer to the desktop workflow. |
+| **ServerMonitor.cs** | Feeds the RustCenter monitoring pipeline that surfaces inside RustCentral Editor for server-aware desktop workflows (Near Future). |
 | **CodeFling / linked services** | Part of the broader RustCenter direction for account-linked plugin and server tooling. |
 
 ## 🚀 Getting started
@@ -150,6 +152,7 @@ RustCentral Editor is not just a standalone installer. It sits inside a larger R
 3. Install the app.
 4. Sign in with your RustCenter account.
 5. Open a supported config and start editing.
+6. Connect your config workflow with RustCenter-linked monitoring and server visibility in the same desktop flow (Near Future).
 
 ## 📦 Which file should I download?
 
@@ -179,9 +182,9 @@ If you only want to install the app yourself, the usual choice is `setup.exe` or
 | Today | Next |
 |------|------|
 | Visual editing for supported plugin config workflows | Richer server-aware workflows inside the desktop experience |
-| RustCenter sign-in and entitlement-aware access | Desktop visibility for server telemetry and monitoring data |
+| RustCenter sign-in and entitlement-aware access | Desktop visibility for server telemetry and monitoring data (Near Future) |
 | GitHub Releases + signed updater pipeline | Deeper integration with the wider RustCenter platform |
-| Desktop-first config workflow | Broader ecosystem features around monitoring and multi-server control |
+| Desktop-first config workflow | Broader ecosystem features around monitoring and multi-server control (Near Future) |
 
 ## 🆘 Community and support
 
