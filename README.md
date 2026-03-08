@@ -13,6 +13,8 @@
 <p align="center">
   <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases/latest"><strong>Download</strong></a>
   &middot;
+  <a href="#downloads"><strong>Install Guide</strong></a>
+  &middot;
   <a href="https://rustcenter.org"><strong>Website</strong></a>
   &middot;
   <a href="https://rustcenter.org/dashboard"><strong>Dashboard</strong></a>
@@ -24,7 +26,9 @@
 
 <p align="center">
   <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases"><img src="https://img.shields.io/github/v/release/DeltaDinizzz/RustCenterApp?display_name=tag&label=latest%20release" alt="Latest release" /></a>
-  <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases"><img src="https://img.shields.io/badge/platform-Windows-0078D6" alt="Windows" /></a>
+  <a href="#downloads"><img src="https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white" alt="Windows" /></a>
+  <a href="#downloads"><img src="https://img.shields.io/badge/platform-Linux-FCC624?logo=linux&logoColor=111111" alt="Linux" /></a>
+  <a href="#downloads"><img src="https://img.shields.io/badge/platform-macOS-111111?logo=apple&logoColor=white" alt="macOS" /></a>
   <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases"><img src="https://img.shields.io/badge/releases-GitHub-181717?logo=github&logoColor=white" alt="GitHub Releases" /></a>
   <a href="https://rustcenter.org"><img src="https://img.shields.io/badge/account-RustCenter-F97316" alt="RustCenter" /></a>
   <a href="https://discord.gg/nDPnCUXJqQ"><img src="https://img.shields.io/badge/community-Discord-5865F2?logo=discord&logoColor=white" alt="Discord" /></a>
@@ -55,6 +59,29 @@
   </tr>
 </table>
 </div>
+
+<br/>
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center"><strong>Runs on</strong></td>
+    <td align="center"><a href="#downloads">🪟<br/><sub>Windows x64<br/>setup.exe / .msi</sub></a></td>
+    <td align="center"><a href="#downloads">🐧<br/><sub>Linux x86_64<br/>AppImage / .deb</sub></a></td>
+    <td align="center"><a href="#downloads">🦾<br/><sub>Linux ARM64<br/>AppImage / .deb</sub></a></td>
+    <td align="center"><a href="#downloads">🍎<br/><sub>macOS Apple Silicon<br/>.dmg</sub></a></td>
+    <td align="center"><a href="#downloads">💻<br/><sub>macOS Intel<br/>.dmg</sub></a></td>
+  </tr>
+</table>
+</div>
+
+<p align="center">
+  <a href="#downloads"><img src="https://img.shields.io/badge/Windows%20x64-setup.exe%20or%20.msi-0078D6?logo=windows&logoColor=white" alt="Windows x64" /></a>
+  <a href="#downloads"><img src="https://img.shields.io/badge/Linux%20x86__64-AppImage%20or%20.deb-FCC624?logo=linux&logoColor=111111" alt="Linux x86_64" /></a>
+  <a href="#downloads"><img src="https://img.shields.io/badge/Linux%20ARM64-AppImage%20or%20.deb-FCC624?logo=linux&logoColor=111111" alt="Linux ARM64" /></a>
+  <a href="#downloads"><img src="https://img.shields.io/badge/macOS%20Apple%20Silicon-.dmg-111111?logo=apple&logoColor=white" alt="macOS Apple Silicon" /></a>
+  <a href="#downloads"><img src="https://img.shields.io/badge/macOS%20Intel-.dmg-555555?logo=apple&logoColor=white" alt="macOS Intel" /></a>
+</p>
 
 <br/>
 
@@ -154,14 +181,69 @@ RustCentral Editor is not just a standalone installer. It sits inside a larger R
 5. Open a supported config and start editing.
 6. Connect your config workflow with RustCenter-linked monitoring and server visibility in the same desktop flow (Near Future).
 
+<a id="downloads"></a>
+
 ## 📦 Which file should I download?
 
-- `...setup.exe`: easiest option for most Windows users.
-- `...msi`: standard Windows installer package, useful for managed installs or manual deployment.
-- `...nsis.zip` and `...msi.zip`: updater packages used by the in-app update system.
-- `.sig`: signature files used to verify updater packages. These are important for the updater, but normal users usually do not open them manually.
+<p align="center">
+  <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases/latest"><img src="https://img.shields.io/badge/Download-Latest%20Release-181717?logo=github&logoColor=white" alt="Latest release" /></a>
+  <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases/latest"><img src="https://img.shields.io/badge/Windows-x64%20setup.exe-0078D6?logo=windows&logoColor=white" alt="Windows setup" /></a>
+  <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases/latest"><img src="https://img.shields.io/badge/Linux-x86__64%20AppImage-FCC624?logo=linux&logoColor=111111" alt="Linux AppImage" /></a>
+  <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases/latest"><img src="https://img.shields.io/badge/Linux-ARM64%20.deb-FCC624?logo=linux&logoColor=111111" alt="Linux ARM64 deb" /></a>
+  <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases/latest"><img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20.dmg-111111?logo=apple&logoColor=white" alt="macOS Apple Silicon" /></a>
+  <a href="https://github.com/DeltaDinizzz/RustCenterApp/releases/latest"><img src="https://img.shields.io/badge/macOS-Intel%20.dmg-555555?logo=apple&logoColor=white" alt="macOS Intel" /></a>
+</p>
 
-If you only want to install the app yourself, the usual choice is `setup.exe` or `msi`.
+### 🪟 Windows x64
+
+- `RustCentralEditor_<version>_windows_x64_setup.exe`: best choice for most Windows users who just want to install and launch the app.
+- `RustCentralEditor_<version>_windows_x64.msi`: better fit for manual deployment, managed installs, or environments that prefer standard MSI packaging.
+- `RustCentralEditor_<version>_windows_x64_setup.nsis.zip` and `RustCentralEditor_<version>_windows_x64.msi.zip`: updater packages used by the in-app update channel.
+- `*.sig`: signature files that validate updater and release-channel assets.
+
+**Normal user choice:** `setup.exe`
+
+### 🐧 Linux x86_64
+
+- `RustCentralEditor_<version>_linux_amd64.AppImage`: the easiest portable Linux option for most users.
+- `RustCentralEditor_<version>_linux_amd64.deb`: best for Debian, Ubuntu, Mint, Pop!_OS, and similar Debian-based systems.
+- `RustCentralEditor_<version>_linux_amd64.AppImage.tar.gz`: updater payload used by the in-app release channel.
+- `*.sig`: signature files for updater and verification flows.
+
+**Normal user choice:** `AppImage` for portability, `.deb` for Debian/Ubuntu-style installs
+
+### 🦾 Linux ARM64
+
+- `RustCentralEditor_<version>_linux_aarch64.AppImage`: portable ARM64 Linux build.
+- `RustCentralEditor_<version>_linux_arm64.deb`: ARM64 `.deb` package for Debian/Ubuntu-based ARM systems.
+- `RustCentralEditor_<version>_linux_aarch64.AppImage.tar.gz`: updater payload for the ARM64 release channel.
+- `*.sig`: signature files for updater and verification flows.
+
+**Normal user choice:** `AppImage` for portability, `.deb` for Debian/Ubuntu-style ARM installs
+
+### 🍎 macOS Apple Silicon
+
+- `RustCentralEditor_<version>_darwin_aarch64.dmg`: installer image for Apple Silicon Macs.
+- `RustCentralEditor_<version>_darwin_aarch64.app.tar.gz`: updater payload used by the release channel.
+- `*.sig`: signature files for updater and verification flows.
+
+**Normal user choice:** `darwin_aarch64.dmg`
+
+### 💻 macOS Intel
+
+- `RustCentralEditor_<version>_darwin_x64.dmg`: installer image for Intel Macs.
+- `RustCentralEditor_<version>_darwin_x64.app.tar.gz`: updater payload used by the release channel.
+- `*.sig`: signature files for updater and verification flows.
+
+**Normal user choice:** `darwin_x64.dmg`
+
+### 🧾 What most users should ignore
+
+- `latest.json`: used by the updater, not by manual installers.
+- `.sig`: verification assets, not something most users open directly.
+- `.zip` and `.tar.gz`: usually updater and release-channel files rather than the normal installer a person clicks first.
+
+If you only want to install the app yourself, start with the platform installer/package, not the updater artifacts.
 
 ## 🔄 How updates work
 
